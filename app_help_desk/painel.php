@@ -2,7 +2,6 @@
 session_start();
 
 
-//echo $_SESSION['autentificado'];
 if(!isset($_SESSION['autentificado']) || $_SESSION 
 ['autentificado'] != 'SIM'){
 

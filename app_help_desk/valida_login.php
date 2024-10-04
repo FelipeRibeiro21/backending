@@ -59,6 +59,7 @@ foreach ($usuario_cadastro as $user){
 if ($usuario_autentificado == true){
     $_SESSION['autentificado']= 'SIM'; 
     echo "Usuario autentificado com sucesso";
+    header('Location: painel.php');
 }else {
     $_SESSION['autentificado'] = 'NÃO';
     header ('Location: index.php?login=erro');
