@@ -25,6 +25,12 @@ require_once ("login.php")
         <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+        <button onclick=location.href='logoff.php style="background-color: red; border-color: red; color:white; border-radius: 10px">Sair</button>
+        </li>
+      </ul>
+    
     </nav>
 
     <div class="container">    
