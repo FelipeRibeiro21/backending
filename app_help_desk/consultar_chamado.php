@@ -1,12 +1,7 @@
+
 <?php
-session_start();
+require_once ("login.php")
 
-
-if(!isset($_SESSION['autentificado']) || $_SESSION 
-['autentificado'] != 'SIM'){
-
-  header ('Location: index.php?login=erro2');
-}
 ?>
 
 

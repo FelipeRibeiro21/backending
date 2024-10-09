@@ -59,6 +59,7 @@
                       </div>
 
                       <div class="col-6">
+                        <a class= "btn btn-çg btn-warning btn-block" href="painel.php">Voltar</a>
                         <button class="btn btn-lg btn-info btn-block" type="submit">Abrir</button>
                       </div>
                     </div>
