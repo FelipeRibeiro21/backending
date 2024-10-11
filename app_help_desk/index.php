@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-     
+   <link rel="stylesheet" href="estilo.css">
 
     </style>
   </head>
@@ -19,6 +19,11 @@
         App Help Desk  
       </a>
     </nav>
+    
+    <style>
+
+      
+    </style>
 
     <div class="container">    
       <div class="row">
