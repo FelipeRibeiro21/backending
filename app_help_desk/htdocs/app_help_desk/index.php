@@ -34,9 +34,8 @@
               Login
             </div>
             <div class="card-body">
-              <form action="registra_chamado.php" method="POST">
+              <form action="valida_login.php" method="POST">
                 <div class="form-group">
-
                   <input type="email" name="email" class="form-control" placeholder="E-mail" required>
                 </div>
                 <div class="form-group">

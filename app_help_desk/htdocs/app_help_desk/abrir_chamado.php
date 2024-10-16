@@ -31,16 +31,15 @@
               <div class="row">
                 <div class="col">
                   
-                  <form action= "registra_chamado.php" method= "POST">
-
+                  <form>
                     <div class="form-group">
                       <label>Título</label>
-                      <input name="titulo" type="text" class="form-control" placeholder="Título">
+                      <input type="text" class="form-control" placeholder="Título">
                     </div>
                     
                     <div class="form-group">
                       <label>Categoria</label>
-                      <select name="categoria" class="form-control">
+                      <select class="form-control">
                         <option>Criação Usuário</option>
                         <option>Impressora</option>
                         <option>Hardware</option>
@@ -51,7 +50,7 @@
                     
                     <div class="form-group">
                       <label>Descrição</label>
-                      <textarea name="descricao" class="form-control" rows="3"></textarea>
+                      <textarea class="form-control" rows="3"></textarea>
                     </div>
 
                     <div class="row mt-5">
