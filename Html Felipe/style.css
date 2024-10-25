@@ -1,0 +1,34 @@
+body{
+    background-color: #71ffff;
+}
+
+
+header{
+    background-color:var(--azul);
+    font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+color: white;
+  
+}
+
+*{
+    margin: 0px;
+}
+
+:root{
+--azul: #0000cd;
+}
+#imagem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
+
+#mae{
+
+    display: flex
+    ;
+}
